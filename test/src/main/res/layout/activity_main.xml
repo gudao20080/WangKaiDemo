@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A" />
+
+    <Button
+        android:id="@+id/btn_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天天向上"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/mark_selector"
+        />
+
+
+
+    <com.wangkai.test.view.MyGridView
+        android:layout_margin="20dp"
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:listSelector="@drawable/listselector"
+        android:background="@android:color/white"
+        android:scrollbars="none"
+        android:verticalSpacing="10dp"/>
+
+
+</LinearLayout>
+
+

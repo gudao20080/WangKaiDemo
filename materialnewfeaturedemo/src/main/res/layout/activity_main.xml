@@ -1,0 +1,72 @@
+<LinearLayout
+    android:id="@+id/cl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="#ff0000"
+    android:dividerPadding="2dp"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_show_snack_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show_snackbar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/t"
+        app:fabSize="normal"
+        android:backgroundTint="#FF0000"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/t"
+        app:fabSize="mini"
+        android:backgroundTint="@color/tab_text_selector"
+        />
+
+
+    <Button
+        android:id="@+id/btn_tabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="TabLayout"
+        />
+
+    <Button
+        android:id="@+id/btn_appBarLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="AppBarLayout"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'multipackageddemo'
+            keyPassword '123456'
+            storeFile file('C:/Users/Administrator/Downloads/multipackageddemo.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.example.administrator.multipackagedemo"
+        minSdkVersion 9
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        signingConfig signingConfigs.config
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "umeng"]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        // 输出apk名称为boohee_v1.0_2015-01-15_wandoujia.apk
+                        def fileName = "VV_v${defaultConfig.versionName}_${variant.productFlavors[0].name}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+        debug {
+            debuggable true
+            jniDebuggable false
+            shrinkResources false
+            signingConfig signingConfigs.config
+            zipAlignEnabled true
+        }
+    }
+    productFlavors {
+        xiaomi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+        }
+        _360 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "_360"]
+        }
+        baidu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+        }
+        wandoujia {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+        }
+//        xiaomi {}
+//        _360 {}
+//        baidu {}
+//        wandoujia {}
+//        xiaomi {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+//        }
+//        _360 {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "_360"]
+//        }
+//        baidu {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+//        }
+//        wandoujia {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+//        }
+    }
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+}

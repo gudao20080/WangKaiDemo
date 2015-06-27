@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MultiPackageDemo</string>
+
+    <string name="hello_world">查看渠道名称</string>
+    <string name="action_settings">Settings</string>
+</resources>

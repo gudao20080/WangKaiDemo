@@ -6,15 +6,15 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
     private final String TAG = "MainActivity";
 
     private Button mValueAnimBtn, mObjectAnimationBtn, mMultiAnimationBtn, mAnimInXMLBtn;

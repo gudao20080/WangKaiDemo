@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/materialnewfeaturedemo" />
             <option value="$PROJECT_DIR$/multipackagedemo" />
             <option value="$PROJECT_DIR$/propertyanimationdemo" />
+            <option value="$PROJECT_DIR$/recyclerviewdemo" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,1 +1,1 @@
-include ':app', ':async', ':bombdemo', ':camerademo', ':CostomCountDown', ':CustomViewT', ':dialogdemo', ':drawerlayoutdemo', ':frescodeom', ':greendaodemo'
+include ':app', ':async', ':bombdemo', ':camerademo', ':CostomCountDown', ':CustomViewT', ':dialogdemo', ':drawerlayoutdemo', ':frescodeom', ':greendaodemo', ':ListViewPropertyTest'

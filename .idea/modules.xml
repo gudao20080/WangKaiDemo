@@ -17,8 +17,10 @@
       <module fileurl="file://$PROJECT_DIR$/greendaodemo/greendaodemo.iml" filepath="$PROJECT_DIR$/greendaodemo/greendaodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/materialnewfeaturedemo/materialnewfeaturedemo.iml" filepath="$PROJECT_DIR$/materialnewfeaturedemo/materialnewfeaturedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/multipackagedemo/multipackagedemo.iml" filepath="$PROJECT_DIR$/multipackagedemo/multipackagedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagertabstriptest/pagertabstriptest.iml" filepath="$PROJECT_DIR$/pagertabstriptest/pagertabstriptest.iml" />
       <module fileurl="file://$PROJECT_DIR$/propertyanimationdemo/propertyanimationdemo.iml" filepath="$PROJECT_DIR$/propertyanimationdemo/propertyanimationdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" filepath="$PROJECT_DIR$/recyclerviewdemo/recyclerviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>

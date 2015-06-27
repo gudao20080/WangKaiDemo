@@ -23,8 +23,10 @@
             <option value="$PROJECT_DIR$/greendaodemo" />
             <option value="$PROJECT_DIR$/materialnewfeaturedemo" />
             <option value="$PROJECT_DIR$/multipackagedemo" />
+            <option value="$PROJECT_DIR$/pagertabstriptest" />
             <option value="$PROJECT_DIR$/propertyanimationdemo" />
             <option value="$PROJECT_DIR$/recyclerviewdemo" />
+            <option value="$PROJECT_DIR$/test" />
           </set>
         </option>
       </GradleProjectSettings>

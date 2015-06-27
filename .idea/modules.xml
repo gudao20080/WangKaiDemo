@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/frescodeom/frescodeom.iml" filepath="$PROJECT_DIR$/frescodeom/frescodeom.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaodemo/greendaodemo.iml" filepath="$PROJECT_DIR$/greendaodemo/greendaodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/materialnewfeaturedemo/materialnewfeaturedemo.iml" filepath="$PROJECT_DIR$/materialnewfeaturedemo/materialnewfeaturedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multipackagedemo/multipackagedemo.iml" filepath="$PROJECT_DIR$/multipackagedemo/multipackagedemo.iml" />
     </modules>
   </component>
 </project>

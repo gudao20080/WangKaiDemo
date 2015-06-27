@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_value_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="valueAnimation"
+        />
+
+    <Button
+        android:id="@+id/btn_object_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="objectAnimation"
+        />
+
+    <Button
+        android:id="@+id/btn_multi_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="multiAnimation"
+        />
+
+    <Button
+        android:id="@+id/btn_animation_in_XML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="animation_in_XML"
+        />
+
+</LinearLayout>

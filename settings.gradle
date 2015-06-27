@@ -1,1 +1,1 @@
-include ':app', ':async', ':bombdemo', ':camerademo', ':CostomCountDown'
+include ':app', ':async', ':bombdemo', ':camerademo', ':CostomCountDown', ':CustomViewT'

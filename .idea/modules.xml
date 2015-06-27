@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/dialogdemo/dialogdemo.iml" filepath="$PROJECT_DIR$/dialogdemo/dialogdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawerlayoutdemo/drawerlayoutdemo.iml" filepath="$PROJECT_DIR$/drawerlayoutdemo/drawerlayoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/frescodeom/frescodeom.iml" filepath="$PROJECT_DIR$/frescodeom/frescodeom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaodemo/greendaodemo.iml" filepath="$PROJECT_DIR$/greendaodemo/greendaodemo.iml" />
     </modules>
   </component>
 </project>

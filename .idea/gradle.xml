@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/async" />
             <option value="$PROJECT_DIR$/bombdemo" />
+            <option value="$PROJECT_DIR$/camerademo" />
           </set>
         </option>
       </GradleProjectSettings>

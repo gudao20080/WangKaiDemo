@@ -1,1 +1,1 @@
-include ':app', ':async', ':bombdemo'
+include ':app', ':async', ':bombdemo', ':camerademo'

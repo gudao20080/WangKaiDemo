@@ -7,5 +7,6 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_round_bitmap">RoundBitmapActivity</string>
     <string name="title_activity_touch_view">TouchViewActivity</string>
+    <string name="title_activity_my_text_view">MyTextViewActivity</string>
 
 </resources>
